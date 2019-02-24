@@ -42,6 +42,18 @@ header h1 {
     }
 }
 
+@media(min-width: 992px) {
+    .topcasafina-banner {
+        left: 0;
+        transform: translate(0, -80%);
+        width: 50%;
+    }
+    .topcasafina-banner-wrapper {
+        position: relative;
+        height: 100%;
+    }
+}
+
 .titulo-depoimentos {
     color: #fff;
     background-color: #0275D8;
