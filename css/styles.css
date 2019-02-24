@@ -33,6 +33,15 @@ header h1 {
     transition: 0.3s;
 }
 
+@media(min-width: 768px) {
+    #sobre-nos {
+        margin-bottom: 20px;
+    }
+    #paineis-sobre {
+        margin-top: 0;
+    }
+}
+
 .titulo-depoimentos {
     color: #fff;
     background-color: #0275D8;
